@@ -1,0 +1,162 @@
+[
+  {
+    "customerId": "CUST-1001",
+    "type": "CONSUMER",
+    "status": "ACTIVE",
+    "title": "Ms",
+    "firstName": "Alex",
+    "lastName": "Rivera",
+    "email": "alex.rivera@example.test",
+    "phone": "+44-7700-100001",
+    "address": {
+      "line1": "14 Maple Close",
+      "city": "Bristol",
+      "postcode": "BS1 4AA",
+      "country": "GB"
+    }
+  },
+  {
+    "customerId": "CUST-1002",
+    "type": "CONSUMER",
+    "status": "ACTIVE",
+    "title": "Ms",
+    "firstName": "Priya",
+    "lastName": "Patel",
+    "email": "priya.patel@example.test",
+    "phone": "+44-7700-100002",
+    "address": {
+      "line1": "22 Oak Avenue",
+      "city": "Leeds",
+      "postcode": "LS1 2AB",
+      "country": "GB"
+    }
+  },
+  {
+    "customerId": "CUST-1003",
+    "type": "CONSUMER",
+    "status": "ACTIVE",
+    "title": "Mr",
+    "firstName": "James",
+    "lastName": "Okonkwo",
+    "email": "james.okonkwo@example.test",
+    "phone": "+44-7700-100003",
+    "address": {
+      "line1": "9 Canal Road",
+      "city": "Manchester",
+      "postcode": "M1 3CD",
+      "country": "GB"
+    }
+  },
+  {
+    "customerId": "CUST-1004",
+    "type": "SMALL_BUSINESS",
+    "status": "ACTIVE",
+    "businessName": "Horizon Cafe Ltd",
+    "contactFirstName": "Sofia",
+    "contactLastName": "Martinez",
+    "email": "billing@horizoncafe.example.test",
+    "phone": "+44-161-100004",
+    "address": {
+      "line1": "5 Market Street",
+      "city": "Manchester",
+      "postcode": "M2 1EE",
+      "country": "GB"
+    }
+  },
+  {
+    "customerId": "CUST-1005",
+    "type": "CONSUMER",
+    "status": "SUSPENDED",
+    "title": "Mx",
+    "firstName": "Sam",
+    "lastName": "Torres",
+    "email": "sam.torres@example.test",
+    "phone": "+44-7700-100005",
+    "address": {
+      "line1": "88 Harbour View",
+      "city": "Plymouth",
+      "postcode": "PL1 5FF",
+      "country": "GB"
+    }
+  },
+  {
+    "customerId": "CUST-1006",
+    "type": "CONSUMER",
+    "status": "ACTIVE",
+    "title": "Ms",
+    "firstName": "Maya",
+    "lastName": "Chen",
+    "email": "maya.chen@example.test",
+    "phone": "+44-7700-100006",
+    "address": {
+      "line1": "3 Hillside Lane",
+      "city": "Oxford",
+      "postcode": "OX1 6GG",
+      "country": "GB"
+    }
+  },
+  {
+    "customerId": "CUST-1007",
+    "type": "CONSUMER",
+    "status": "ACTIVE",
+    "title": "Ms",
+    "firstName": "Maya",
+    "lastName": "Brooks",
+    "email": "maya.brooks@example.test",
+    "phone": "+44-7700-100007",
+    "address": {
+      "line1": "17 Riverside Walk",
+      "city": "York",
+      "postcode": "YO1 7HH",
+      "country": "GB"
+    }
+  },
+  {
+    "customerId": "CUST-1008",
+    "type": "SMALL_BUSINESS",
+    "status": "ACTIVE",
+    "businessName": "Bright Desk Ltd",
+    "contactFirstName": "Noah",
+    "contactLastName": "Bennett",
+    "email": "ops@brightdesk.example.test",
+    "phone": "+44-207-100008",
+    "address": {
+      "line1": "41 Fleet Place",
+      "city": "London",
+      "postcode": "EC4A 1JJ",
+      "country": "GB"
+    }
+  },
+  {
+    "customerId": "CUST-1009",
+    "type": "CONSUMER",
+    "status": "CLOSED",
+    "title": "Mr",
+    "firstName": "Raj",
+    "lastName": "Patel",
+    "email": "raj.patel@example.test",
+    "phone": "+44-7700-100009",
+    "address": {
+      "line1": "66 Station Road",
+      "city": "Birmingham",
+      "postcode": "B1 8KK",
+      "country": "GB"
+    }
+  },
+  {
+    "customerId": "CUST-1010",
+    "type": "CONSUMER",
+    "status": "ACTIVE",
+    "title": "Ms",
+    "firstName": "Elena",
+    "lastName": "Novak",
+    "email": "elena.novak@example.test",
+    "phone": "+44-7700-100010",
+    "address": {
+      "line1": "12 Cedar Court",
+      "city": "Brighton",
+      "postcode": "BN1 9LL",
+      "country": "GB"
+    }
+  }
+]

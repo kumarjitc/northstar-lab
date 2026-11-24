@@ -1,0 +1,228 @@
+[
+  {
+    "billId": "BILL-7001",
+    "billingAccountId": "BA-5001",
+    "customerId": "CUST-1001",
+    "status": "ISSUED",
+    "periodStart": "2025-10-01",
+    "periodEnd": "2025-10-31",
+    "issuedAt": "2025-11-01T00:00:00Z",
+    "dueDate": "2025-11-15",
+    "currency": "GBP",
+    "total": 45,
+    "lineItems": [
+      {
+        "code": "RECURRING",
+        "description": "Fibre 150 monthly",
+        "amount": 35
+      },
+      {
+        "code": "RECURRING",
+        "description": "Digital Voice monthly",
+        "amount": 10
+      }
+    ]
+  },
+  {
+    "billId": "BILL-7002",
+    "billingAccountId": "BA-5002",
+    "customerId": "CUST-1002",
+    "status": "PAID",
+    "periodStart": "2025-10-01",
+    "periodEnd": "2025-10-31",
+    "issuedAt": "2025-11-01T00:00:00Z",
+    "dueDate": "2025-11-15",
+    "currency": "GBP",
+    "total": 32,
+    "lineItems": [
+      {
+        "code": "RECURRING",
+        "description": "Fibre 50 monthly",
+        "amount": 27
+      },
+      {
+        "code": "RECURRING",
+        "description": "Whole Home WiFi",
+        "amount": 5
+      }
+    ]
+  },
+  {
+    "billId": "BILL-7003",
+    "billingAccountId": "BA-5003",
+    "customerId": "CUST-1003",
+    "status": "PARTIALLY_PAID",
+    "periodStart": "2025-10-01",
+    "periodEnd": "2025-10-31",
+    "issuedAt": "2025-11-01T00:00:00Z",
+    "dueDate": "2025-11-15",
+    "currency": "GBP",
+    "total": 85,
+    "amountPaid": 22.5,
+    "lineItems": [
+      {
+        "code": "RECURRING",
+        "description": "Fibre 150 monthly",
+        "amount": 35
+      },
+      {
+        "code": "ONE_OFF",
+        "description": "Missed payment recovery fee",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "billId": "BILL-7004",
+    "billingAccountId": "BA-5005",
+    "customerId": "CUST-1005",
+    "status": "PAYMENT_PENDING",
+    "periodStart": "2025-10-01",
+    "periodEnd": "2025-10-31",
+    "issuedAt": "2025-11-01T00:00:00Z",
+    "dueDate": "2025-11-10",
+    "currency": "GBP",
+    "total": 79.99,
+    "lineItems": [
+      {
+        "code": "RECURRING",
+        "description": "Fibre 50 monthly",
+        "amount": 29.99
+      },
+      {
+        "code": "LATE_FEE",
+        "description": "Late payment fee",
+        "amount": 50
+      }
+    ]
+  },
+  {
+    "billId": "BILL-7005",
+    "billingAccountId": "BA-5006",
+    "customerId": "CUST-1006",
+    "status": "UNDER_DISPUTE",
+    "periodStart": "2025-10-01",
+    "periodEnd": "2025-10-31",
+    "issuedAt": "2025-11-01T00:00:00Z",
+    "dueDate": "2025-11-15",
+    "currency": "GBP",
+    "total": 69.99,
+    "lineItems": [
+      {
+        "code": "RECURRING",
+        "description": "Fibre 500 monthly",
+        "amount": 35
+      },
+      {
+        "code": "ONE_OFF",
+        "description": "Engineer visit charge",
+        "amount": 34.99
+      }
+    ]
+  },
+  {
+    "billId": "BILL-7006",
+    "billingAccountId": "BA-5007",
+    "customerId": "CUST-1007",
+    "status": "CREDIT",
+    "periodStart": "2025-09-01",
+    "periodEnd": "2025-09-30",
+    "issuedAt": "2025-10-01T00:00:00Z",
+    "dueDate": "2025-10-15",
+    "currency": "GBP",
+    "total": 20,
+    "lineItems": [
+      {
+        "code": "RECURRING",
+        "description": "Fibre 150 monthly",
+        "amount": 35
+      },
+      {
+        "code": "SERVICE_CREDIT",
+        "description": "Fault compensation credit FLT-6007",
+        "amount": -15
+      }
+    ]
+  },
+  {
+    "billId": "BILL-7007",
+    "billingAccountId": "BA-5008",
+    "customerId": "CUST-1008",
+    "status": "PENDING_GENERATION",
+    "periodStart": "2025-11-01",
+    "periodEnd": "2025-11-30",
+    "issuedAt": null,
+    "dueDate": null,
+    "currency": "GBP",
+    "total": null,
+    "lineItems": [],
+    "notes": "Service not yet activated; next bill amount cannot be estimated from records."
+  },
+  {
+    "billId": "BILL-7008",
+    "billingAccountId": "BA-5004",
+    "customerId": "CUST-1004",
+    "status": "ISSUED",
+    "periodStart": "2025-10-01",
+    "periodEnd": "2025-10-31",
+    "issuedAt": "2025-11-01T00:00:00Z",
+    "dueDate": "2025-11-20",
+    "currency": "GBP",
+    "total": 180,
+    "lineItems": [
+      {
+        "code": "RECURRING",
+        "description": "Business Fibre 500 monthly",
+        "amount": 160
+      },
+      {
+        "code": "RECURRING",
+        "description": "Static IP",
+        "amount": 20
+      }
+    ]
+  },
+  {
+    "billId": "BILL-7009",
+    "billingAccountId": "BA-5010",
+    "customerId": "CUST-1010",
+    "status": "UNDER_DISPUTE",
+    "periodStart": "2025-10-01",
+    "periodEnd": "2025-10-31",
+    "issuedAt": "2025-11-01T00:00:00Z",
+    "dueDate": "2025-11-15",
+    "currency": "GBP",
+    "total": 69.99,
+    "lineItems": [
+      {
+        "code": "RECURRING",
+        "description": "Fibre 150 monthly",
+        "amount": 35
+      },
+      {
+        "code": "ONE_OFF",
+        "description": "Router replacement charge",
+        "amount": 34.99
+      }
+    ]
+  },
+  {
+    "billId": "BILL-7010",
+    "billingAccountId": "BA-5009",
+    "customerId": "CUST-1009",
+    "status": "PAID",
+    "periodStart": "2025-09-01",
+    "periodEnd": "2025-09-30",
+    "issuedAt": "2025-10-01T00:00:00Z",
+    "dueDate": "2025-10-15",
+    "currency": "GBP",
+    "total": 27,
+    "lineItems": [
+      {
+        "code": "RECURRING",
+        "description": "Fibre 50 final month",
+        "amount": 27
+      }
+    ]
+  }
+]

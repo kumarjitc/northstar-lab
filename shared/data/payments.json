@@ -1,0 +1,113 @@
+[
+  {
+    "paymentId": "PAY-8001",
+    "billingAccountId": "BA-5001",
+    "billId": "BILL-7001",
+    "customerId": "CUST-1001",
+    "amount": 45,
+    "currency": "GBP",
+    "status": "SCHEDULED",
+    "method": "DIRECT_DEBIT",
+    "attemptedAt": "2025-11-15T06:00:00Z",
+    "settledAt": null
+  },
+  {
+    "paymentId": "PAY-8002",
+    "billingAccountId": "BA-5002",
+    "billId": "BILL-7002",
+    "customerId": "CUST-1002",
+    "amount": 32,
+    "currency": "GBP",
+    "status": "SETTLED",
+    "method": "CARD",
+    "attemptedAt": "2025-11-05T08:00:00Z",
+    "settledAt": "2025-11-05T08:00:12Z"
+  },
+  {
+    "paymentId": "PAY-8003",
+    "billingAccountId": "BA-5003",
+    "billId": "BILL-7003",
+    "customerId": "CUST-1003",
+    "amount": 22.5,
+    "currency": "GBP",
+    "status": "SETTLED",
+    "method": "DIRECT_DEBIT",
+    "attemptedAt": "2025-11-10T06:00:00Z",
+    "settledAt": "2025-11-10T06:00:20Z"
+  },
+  {
+    "paymentId": "PAY-8004",
+    "billingAccountId": "BA-5005",
+    "billId": "BILL-7004",
+    "customerId": "CUST-1005",
+    "amount": 79.99,
+    "currency": "GBP",
+    "status": "FAILED",
+    "method": "CARD",
+    "attemptedAt": "2025-11-10T09:15:00Z",
+    "settledAt": null,
+    "failureReason": "INSUFFICIENT_FUNDS"
+  },
+  {
+    "paymentId": "PAY-8005",
+    "billingAccountId": "BA-5005",
+    "billId": "BILL-7004",
+    "customerId": "CUST-1005",
+    "amount": 79.99,
+    "currency": "GBP",
+    "status": "PENDING",
+    "method": "CARD",
+    "attemptedAt": "2025-11-18T10:00:00Z",
+    "settledAt": null,
+    "notes": "Retry after failed PAY-8004. PENDING does not prove settlement."
+  },
+  {
+    "paymentId": "PAY-8006",
+    "billingAccountId": "BA-5007",
+    "billId": "BILL-7006",
+    "customerId": "CUST-1007",
+    "amount": 20,
+    "currency": "GBP",
+    "status": "SETTLED",
+    "method": "DIRECT_DEBIT",
+    "attemptedAt": "2025-10-12T06:00:00Z",
+    "settledAt": "2025-10-12T06:00:15Z"
+  },
+  {
+    "paymentId": "PAY-8007",
+    "billingAccountId": "BA-5004",
+    "billId": "BILL-7008",
+    "customerId": "CUST-1004",
+    "amount": 180,
+    "currency": "GBP",
+    "status": "SCHEDULED",
+    "method": "BANK_TRANSFER",
+    "attemptedAt": "2025-11-20T00:00:00Z",
+    "settledAt": null
+  },
+  {
+    "paymentId": "PAY-8008",
+    "billingAccountId": "BA-5010",
+    "billId": "BILL-7009",
+    "customerId": "CUST-1010",
+    "amount": 35,
+    "currency": "GBP",
+    "status": "SETTLED",
+    "method": "DIRECT_DEBIT",
+    "attemptedAt": "2025-11-12T06:00:00Z",
+    "settledAt": "2025-11-12T06:00:18Z",
+    "notes": "Recurring portion only; disputed router fee remains unpaid/under dispute."
+  },
+  {
+    "paymentId": "PAY-8009",
+    "billingAccountId": "BA-5009",
+    "billId": "BILL-7010",
+    "customerId": "CUST-1009",
+    "amount": 27,
+    "currency": "GBP",
+    "status": "SETTLED",
+    "method": "CARD",
+    "attemptedAt": "2025-10-10T12:00:00Z",
+    "settledAt": "2025-10-10T12:00:10Z"
+  }
+]

@@ -1,0 +1,176 @@
+[
+  {
+    "billingCaseId": "BC-9001",
+    "customerId": "CUST-1005",
+    "billingAccountId": "BA-5005",
+    "billId": "BILL-7004",
+    "caseType": "PAYMENT_INVESTIGATION",
+    "status": "PENDING_EXTERNAL",
+    "openedAt": "2025-11-11T09:00:00Z",
+    "summary": "Investigate failed card payment and pending retry while access remains restricted.",
+    "evidence": [
+      {
+        "type": "PAYMENT",
+        "referenceId": "PAY-8004",
+        "finding": "FAILED",
+        "detail": "Insufficient funds"
+      },
+      {
+        "type": "PAYMENT",
+        "referenceId": "PAY-8005",
+        "finding": "PENDING",
+        "detail": "Retry submitted; not settled"
+      },
+      {
+        "type": "ACCESS",
+        "referenceId": "SVC-3008",
+        "finding": "BLOCKED",
+        "detail": "Billing restriction active"
+      }
+    ],
+    "outcome": null
+  },
+  {
+    "billingCaseId": "BC-9002",
+    "customerId": "CUST-1006",
+    "billingAccountId": "BA-5006",
+    "billId": "BILL-7005",
+    "caseType": "CHARGE_DISPUTE",
+    "status": "INVESTIGATING",
+    "openedAt": "2025-11-03T14:00:00Z",
+    "summary": "Customer disputes engineer visit charge; claims no chargeable visit was agreed.",
+    "evidence": [
+      {
+        "type": "ORDER",
+        "referenceId": "ORD-2045",
+        "finding": "COMPLETED",
+        "detail": "Engineer visit occurred"
+      },
+      {
+        "type": "CONSENT",
+        "referenceId": null,
+        "finding": "NOT_FOUND",
+        "detail": "No recorded customer consent for chargeable visit"
+      },
+      {
+        "type": "BILL_LINE",
+        "referenceId": "BILL-7005",
+        "finding": "PRESENT",
+        "detail": "£34.99 engineer visit charge raised"
+      }
+    ],
+    "outcome": null
+  },
+  {
+    "billingCaseId": "BC-9003",
+    "customerId": "CUST-1010",
+    "billingAccountId": "BA-5010",
+    "billId": "BILL-7009",
+    "caseType": "EQUIPMENT_CHARGE_DISPUTE",
+    "status": "AWAITING_EVIDENCE",
+    "openedAt": "2025-11-10T11:00:00Z",
+    "summary": "Customer says replacement router was promised free; bill includes £34.99 replacement charge.",
+    "evidence": [
+      {
+        "type": "ORDER",
+        "referenceId": "ORD-2046",
+        "finding": "IN_PROGRESS",
+        "detail": "Router replacement ordered"
+      },
+      {
+        "type": "BILL_LINE",
+        "referenceId": "BILL-7009",
+        "finding": "PRESENT",
+        "detail": "£34.99 router replacement charge"
+      },
+      {
+        "type": "FEE_WAIVER",
+        "referenceId": null,
+        "finding": "NOT_FOUND",
+        "detail": "No fee waiver recorded"
+      },
+      {
+        "type": "CUSTOMER_STATEMENT",
+        "referenceId": null,
+        "finding": "CLAIMED",
+        "detail": "Customer asserts free replacement promise"
+      }
+    ],
+    "outcome": null
+  },
+  {
+    "billingCaseId": "BC-9004",
+    "customerId": "CUST-1003",
+    "billingAccountId": "BA-5003",
+    "billId": "BILL-7003",
+    "caseType": "PARTIAL_PAYMENT_QUERY",
+    "status": "OPEN",
+    "openedAt": "2025-11-14T10:00:00Z",
+    "summary": "Customer claims bill fully paid; only partial settled payment is on record.",
+    "evidence": [
+      {
+        "type": "PAYMENT",
+        "referenceId": "PAY-8003",
+        "finding": "SETTLED",
+        "detail": "£22.50 settled against £85.00 bill"
+      },
+      {
+        "type": "BILL",
+        "referenceId": "BILL-7003",
+        "finding": "PARTIALLY_PAID",
+        "detail": "Outstanding balance remains"
+      }
+    ],
+    "outcome": null
+  },
+  {
+    "billingCaseId": "BC-9005",
+    "customerId": "CUST-1007",
+    "billingAccountId": "BA-5007",
+    "billId": "BILL-7006",
+    "caseType": "CREDIT_QUERY",
+    "status": "RESOLVED",
+    "openedAt": "2025-09-20T09:00:00Z",
+    "summary": "Fault compensation credit applied after intermittent connectivity fault.",
+    "evidence": [
+      {
+        "type": "FAULT",
+        "referenceId": "FLT-6007",
+        "finding": "RESOLVED",
+        "detail": "Intermittent fault closed"
+      },
+      {
+        "type": "SERVICE_CREDIT",
+        "referenceId": "BILL-7006",
+        "finding": "APPLIED",
+        "detail": "£15.00 credit applied"
+      }
+    ],
+    "outcome": "CREDIT_APPLIED"
+  },
+  {
+    "billingCaseId": "BC-9006",
+    "customerId": "CUST-1004",
+    "billingAccountId": "BA-5004",
+    "billId": "BILL-7008",
+    "caseType": "CREDIT_QUERY",
+    "status": "OPEN",
+    "openedAt": "2025-11-16T09:30:00Z",
+    "summary": "Business customer asking about compensation for below-minimum speeds.",
+    "evidence": [
+      {
+        "type": "FAULT",
+        "referenceId": "FLT-6004",
+        "finding": "OPEN",
+        "detail": "Performance fault open"
+      },
+      {
+        "type": "INCIDENT",
+        "referenceId": "INC-4101",
+        "finding": "ACTIVE",
+        "detail": "Congestion incident affecting area"
+      }
+    ],
+    "outcome": null
+  }
+]

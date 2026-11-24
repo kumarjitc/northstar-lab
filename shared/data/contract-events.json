@@ -1,0 +1,78 @@
+[
+  {
+    "eventId": "CE-1301",
+    "contractId": "CON-1101",
+    "eventType": "SERVICE_LEVEL_REVIEW_OPENED",
+    "occurredAt": "2025-11-14T18:30:00Z",
+    "relatedFaultId": "FLT-6001",
+    "relatedIncidentId": "INC-4102",
+    "detail": "Monitoring intermittent browsing issues alongside DNS incident."
+  },
+  {
+    "eventId": "CE-1302",
+    "contractId": "CON-1102",
+    "eventType": "MINIMUM_TERM_ENDED",
+    "occurredAt": "2023-01-04T00:00:00Z",
+    "detail": "Minimum term ended; contract now OUT_OF_TERM."
+  },
+  {
+    "eventId": "CE-1303",
+    "contractId": "CON-1102",
+    "eventType": "EQUIPMENT_REPLACEMENT_ORDERED",
+    "occurredAt": "2025-10-28T11:00:00Z",
+    "relatedOrderId": "ORD-2041",
+    "relatedFaultId": "FLT-6002",
+    "detail": "Replacement ordered; later fault resolution creates open-order mismatch."
+  },
+  {
+    "eventId": "CE-1304",
+    "contractId": "CON-1102",
+    "eventType": "RENEWAL_OFFER_CREATED",
+    "occurredAt": "2025-11-01T09:00:00Z",
+    "relatedOfferId": "OFF-1201",
+    "detail": "Renewal offer available; not accepted."
+  },
+  {
+    "eventId": "CE-1305",
+    "contractId": "CON-1104",
+    "eventType": "SERVICE_LEVEL_REVIEW_OPENED",
+    "occurredAt": "2025-11-13T10:30:00Z",
+    "relatedFaultId": "FLT-6004",
+    "relatedIncidentId": "INC-4101",
+    "detail": "Measured speed below contractual minimum during active congestion incident."
+  },
+  {
+    "eventId": "CE-1306",
+    "contractId": "CON-1105",
+    "eventType": "SERVICE_RESTRICTED",
+    "occurredAt": "2025-11-10T09:30:00Z",
+    "relatedBillingCaseId": "BC-9001",
+    "detail": "Access restricted after failed payment."
+  },
+  {
+    "eventId": "CE-1307",
+    "contractId": "CON-1107",
+    "eventType": "FAULT_CREDIT_APPLIED",
+    "occurredAt": "2025-09-20T12:00:00Z",
+    "relatedFaultId": "FLT-6007",
+    "relatedBillingCaseId": "BC-9005",
+    "detail": "£15.00 fault compensation credit applied."
+  },
+  {
+    "eventId": "CE-1308",
+    "contractId": "CON-1108",
+    "eventType": "ACTIVATION_DELAYED",
+    "occurredAt": "2025-09-15T08:00:00Z",
+    "relatedOrderId": "ORD-2042",
+    "detail": "Civils required; contract remains NOT_STARTED until service activation."
+  },
+  {
+    "eventId": "CE-1309",
+    "contractId": "CON-1110",
+    "eventType": "EQUIPMENT_REPLACEMENT_ORDERED",
+    "occurredAt": "2025-11-08T10:00:00Z",
+    "relatedOrderId": "ORD-2046",
+    "relatedFaultId": "FLT-6009",
+    "detail": "Replacement ordered for restarting router."
+  }
+]

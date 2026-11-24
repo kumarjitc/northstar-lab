@@ -1,0 +1,47 @@
+[
+  {
+    "incidentId": "INC-4101",
+    "title": "Regional congestion affecting business FTTP",
+    "status": "ACTIVE",
+    "severity": "MEDIUM",
+    "startedAt": "2025-11-12T06:00:00Z",
+    "estimatedResolutionAt": "2025-11-22T18:00:00Z",
+    "affectedAreas": [
+      "Manchester M2"
+    ],
+    "affectedServiceIds": [
+      "SVC-3006"
+    ],
+    "summary": "Congestion reducing throughput for some Business Fibre services. Line tests may still pass."
+  },
+  {
+    "incidentId": "INC-4102",
+    "title": "DNS / resolver degradation",
+    "status": "ACTIVE",
+    "severity": "LOW",
+    "startedAt": "2025-11-14T12:00:00Z",
+    "estimatedResolutionAt": "2025-11-21T12:00:00Z",
+    "affectedAreas": [
+      "Bristol BS1"
+    ],
+    "affectedServiceIds": [
+      "SVC-3001"
+    ],
+    "summary": "Intermittent DNS resolution issues. Line tests remain healthy and routers remain reachable."
+  },
+  {
+    "incidentId": "INC-4103",
+    "title": "Planned maintenance window",
+    "status": "SCHEDULED",
+    "severity": "LOW",
+    "startedAt": "2025-11-25T01:00:00Z",
+    "estimatedResolutionAt": "2025-11-25T05:00:00Z",
+    "affectedAreas": [
+      "Brighton BN1"
+    ],
+    "affectedServiceIds": [
+      "SVC-3014"
+    ],
+    "summary": "Planned overnight maintenance; not currently causing the reported router restarts."
+  }
+]

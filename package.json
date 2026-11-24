@@ -1,0 +1,45 @@
+{
+  "name": "northstar-agent-lab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Northstar Agent Lab: phased REST, agentic, MCP, A2A, and mixed-MCP reference implementations",
+  "workspaces": [
+    "shared/packages/*",
+    "phases/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "rest": "npm --workspace phases/00-rest run start",
+    "rest:dev": "npm --workspace phases/00-rest run dev",
+    "rest:test": "npm --workspace phases/00-rest run test",
+    "agentic": "npm --workspace phases/01-agentic run start",
+    "agentic:dev": "npm --workspace phases/01-agentic run dev",
+    "agentic:test": "npm --workspace phases/01-agentic run test",
+    "agentic:eval": "npm --workspace phases/01-agentic run eval",
+    "mcp": "npm --workspace phases/02-mcp run start",
+    "mcp:dev": "npm --workspace phases/02-mcp run dev",
+    "mcp:test": "npm --workspace phases/02-mcp run test",
+    "mcp:eval": "npm --workspace phases/02-mcp run eval",
+    "a2a": "npm --workspace phases/03-a2a run start",
+    "a2a:dev": "npm --workspace phases/03-a2a run dev",
+    "a2a:test": "npm --workspace phases/03-a2a run test",
+    "a2a:eval": "npm --workspace phases/03-a2a run eval",
+    "mixed": "npm --workspace phases/04-mcp-mixed run start",
+    "mixed:dev": "npm --workspace phases/04-mcp-mixed run dev",
+    "mixed:test": "npm --workspace phases/04-mcp-mixed run test",
+    "mixed:eval": "npm --workspace phases/04-mcp-mixed run eval",
+    "log:view": "node shared/packages/logger/dist/view.js",
+    "log:graph": "node shared/packages/logger/dist/graph.js",
+    "log:viewer": "node shared/packages/logger/dist/viewer-server.js",
+    "rest:trace": "node shared/packages/logger/dist/viewer-server.js --phase 00-rest --open",
+    "agentic:trace": "node shared/packages/logger/dist/viewer-server.js --phase 01-agentic --open",
+    "mcp:trace": "node shared/packages/logger/dist/viewer-server.js --phase 02-mcp --open",
+    "a2a:trace": "node shared/packages/logger/dist/viewer-server.js --phase 03-a2a --open",
+    "mixed:trace": "node shared/packages/logger/dist/viewer-server.js --phase 04-mcp-mixed --open"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

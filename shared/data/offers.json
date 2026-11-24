@@ -1,0 +1,50 @@
+[
+  {
+    "offerId": "OFF-1201",
+    "customerId": "CUST-1002",
+    "relatedContractId": "CON-1102",
+    "offerType": "RENEWAL",
+    "status": "AVAILABLE",
+    "title": "Fibre 150 renewal for 18 months",
+    "monthlyRecurringCharge": 32,
+    "currency": "GBP",
+    "validUntil": "2025-12-15",
+    "notes": "Available offer only — not an accepted contract."
+  },
+  {
+    "offerId": "OFF-1202",
+    "customerId": "CUST-1006",
+    "relatedContractId": "CON-1106",
+    "offerType": "RENEWAL",
+    "status": "AVAILABLE",
+    "title": "Fibre 500 continue for 12 months",
+    "monthlyRecurringCharge": 33,
+    "currency": "GBP",
+    "validUntil": "2025-11-30",
+    "notes": "Available offer only — not an accepted contract."
+  },
+  {
+    "offerId": "OFF-1203",
+    "customerId": "CUST-1004",
+    "relatedContractId": "CON-1104",
+    "offerType": "UPGRADE",
+    "status": "AVAILABLE",
+    "title": "Business Fibre 900 upgrade",
+    "monthlyRecurringCharge": 210,
+    "currency": "GBP",
+    "validUntil": "2025-12-31",
+    "notes": "Available offer only — not an accepted contract."
+  },
+  {
+    "offerId": "OFF-1204",
+    "customerId": "CUST-1010",
+    "relatedContractId": "CON-1110",
+    "offerType": "ADD_ON",
+    "status": "AVAILABLE",
+    "title": "Whole Home WiFi add-on",
+    "monthlyRecurringCharge": 5,
+    "currency": "GBP",
+    "validUntil": "2025-12-31",
+    "notes": "Available offer only — not an accepted contract."
+  }
+]

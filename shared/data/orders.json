@@ -1,0 +1,123 @@
+[
+  {
+    "orderId": "ORD-2040",
+    "customerId": "CUST-1001",
+    "serviceId": "SVC-3001",
+    "orderType": "NEW_SERVICE",
+    "status": "COMPLETED",
+    "reasonCode": null,
+    "placedAt": "2024-02-20T09:00:00Z",
+    "completedAt": "2024-03-12T10:00:00Z",
+    "nextReviewDate": null,
+    "notes": "Initial Fibre 150 activation completed."
+  },
+  {
+    "orderId": "ORD-2041",
+    "customerId": "CUST-1002",
+    "serviceId": "SVC-3003",
+    "orderType": "ROUTER_REPLACEMENT",
+    "status": "IN_PROGRESS",
+    "reasonCode": null,
+    "placedAt": "2025-10-28T11:00:00Z",
+    "completedAt": null,
+    "nextReviewDate": "2025-11-25T09:00:00Z",
+    "notes": "Replacement ordered after Wi-Fi issue; fault later resolved remotely. Order remains open and needs review."
+  },
+  {
+    "orderId": "ORD-2042",
+    "customerId": "CUST-1008",
+    "serviceId": "SVC-3011",
+    "orderType": "NEW_SERVICE",
+    "status": "DELAYED",
+    "reasonCode": "CIVILS_REQUIRED",
+    "placedAt": "2025-09-01T08:00:00Z",
+    "completedAt": null,
+    "nextReviewDate": "2025-11-28T09:00:00Z",
+    "notes": "Civils work required before FTTP activation. nextReviewDate is a planning checkpoint, not a completion promise."
+  },
+  {
+    "orderId": "ORD-2043",
+    "customerId": "CUST-1008",
+    "serviceId": "SVC-3012",
+    "orderType": "VOICE_ADD",
+    "status": "DELAYED",
+    "reasonCode": "DEPENDENCY_BROADBAND",
+    "placedAt": "2025-09-01T08:05:00Z",
+    "completedAt": null,
+    "nextReviewDate": "2025-11-28T09:00:00Z",
+    "notes": "Voice cannot activate until ORD-2042 broadband completes."
+  },
+  {
+    "orderId": "ORD-2044",
+    "customerId": "CUST-1003",
+    "serviceId": "SVC-3005",
+    "orderType": "FAULT_VISIT",
+    "status": "IN_PROGRESS",
+    "reasonCode": null,
+    "placedAt": "2025-11-12T08:30:00Z",
+    "completedAt": null,
+    "nextReviewDate": "2025-11-21T13:00:00Z",
+    "appointmentWindow": "2025-11-21T13:00:00Z/2025-11-21T17:00:00Z",
+    "notes": "Engineer visit already booked for total-loss fault. Do not book another engineer without review."
+  },
+  {
+    "orderId": "ORD-2045",
+    "customerId": "CUST-1006",
+    "serviceId": "SVC-3009",
+    "orderType": "FAULT_VISIT",
+    "status": "COMPLETED",
+    "reasonCode": null,
+    "placedAt": "2025-10-02T09:00:00Z",
+    "completedAt": "2025-10-05T15:40:00Z",
+    "nextReviewDate": null,
+    "notes": "Engineer attended. Customer later disputed consent for chargeable visit."
+  },
+  {
+    "orderId": "ORD-2046",
+    "customerId": "CUST-1010",
+    "serviceId": "SVC-3014",
+    "orderType": "ROUTER_REPLACEMENT",
+    "status": "IN_PROGRESS",
+    "reasonCode": null,
+    "placedAt": "2025-11-08T10:00:00Z",
+    "completedAt": null,
+    "nextReviewDate": "2025-11-22T10:00:00Z",
+    "notes": "Replacement ordered due to repeated router restarts. Customer claims fee was promised free; no waiver recorded."
+  },
+  {
+    "orderId": "ORD-2047",
+    "customerId": "CUST-1004",
+    "serviceId": "SVC-3006",
+    "orderType": "FAULT_VISIT",
+    "status": "PLACED",
+    "reasonCode": null,
+    "placedAt": "2025-11-15T09:00:00Z",
+    "completedAt": null,
+    "nextReviewDate": "2025-11-24T09:00:00Z",
+    "notes": "Performance investigation visit placed after low measured speeds."
+  },
+  {
+    "orderId": "ORD-2048",
+    "customerId": "CUST-1007",
+    "serviceId": "SVC-3010",
+    "orderType": "FAULT_VISIT",
+    "status": "COMPLETED",
+    "reasonCode": null,
+    "placedAt": "2025-09-10T08:00:00Z",
+    "completedAt": "2025-09-12T16:00:00Z",
+    "nextReviewDate": null,
+    "notes": "Intermittent connectivity investigated and resolved."
+  },
+  {
+    "orderId": "ORD-2049",
+    "customerId": "CUST-1009",
+    "serviceId": "SVC-3013",
+    "orderType": "CEASE",
+    "status": "COMPLETED",
+    "reasonCode": "CUSTOMER_CANCELLED",
+    "placedAt": "2025-09-01T10:00:00Z",
+    "completedAt": "2025-09-30T23:59:59Z",
+    "nextReviewDate": null,
+    "notes": "Service ceased at customer request."
+  }
+]

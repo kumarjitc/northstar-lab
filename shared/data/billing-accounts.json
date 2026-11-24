@@ -1,0 +1,92 @@
+[
+  {
+    "billingAccountId": "BA-5001",
+    "customerId": "CUST-1001",
+    "balance": 45,
+    "currency": "GBP",
+    "accountStatus": "CURRENT",
+    "paymentMethod": "DIRECT_DEBIT",
+    "autopayStatus": "ENABLED"
+  },
+  {
+    "billingAccountId": "BA-5002",
+    "customerId": "CUST-1002",
+    "balance": 0,
+    "currency": "GBP",
+    "accountStatus": "CURRENT",
+    "paymentMethod": "CARD",
+    "autopayStatus": "ENABLED"
+  },
+  {
+    "billingAccountId": "BA-5003",
+    "customerId": "CUST-1003",
+    "balance": 62.5,
+    "currency": "GBP",
+    "accountStatus": "CURRENT",
+    "paymentMethod": "DIRECT_DEBIT",
+    "autopayStatus": "ENABLED"
+  },
+  {
+    "billingAccountId": "BA-5004",
+    "customerId": "CUST-1004",
+    "balance": 180,
+    "currency": "GBP",
+    "accountStatus": "CURRENT",
+    "paymentMethod": "INVOICE",
+    "autopayStatus": "DISABLED"
+  },
+  {
+    "billingAccountId": "BA-5005",
+    "customerId": "CUST-1005",
+    "balance": 79.99,
+    "currency": "GBP",
+    "accountStatus": "RESTRICTED",
+    "paymentMethod": "CARD",
+    "autopayStatus": "DISABLED"
+  },
+  {
+    "billingAccountId": "BA-5006",
+    "customerId": "CUST-1006",
+    "balance": 34.99,
+    "currency": "GBP",
+    "accountStatus": "CURRENT",
+    "paymentMethod": "DIRECT_DEBIT",
+    "autopayStatus": "ENABLED"
+  },
+  {
+    "billingAccountId": "BA-5007",
+    "customerId": "CUST-1007",
+    "balance": -15,
+    "currency": "GBP",
+    "accountStatus": "CURRENT",
+    "paymentMethod": "DIRECT_DEBIT",
+    "autopayStatus": "ENABLED"
+  },
+  {
+    "billingAccountId": "BA-5008",
+    "customerId": "CUST-1008",
+    "balance": 0,
+    "currency": "GBP",
+    "accountStatus": "CURRENT",
+    "paymentMethod": "INVOICE",
+    "autopayStatus": "DISABLED"
+  },
+  {
+    "billingAccountId": "BA-5009",
+    "customerId": "CUST-1009",
+    "balance": 0,
+    "currency": "GBP",
+    "accountStatus": "CLOSED",
+    "paymentMethod": "CARD",
+    "autopayStatus": "DISABLED"
+  },
+  {
+    "billingAccountId": "BA-5010",
+    "customerId": "CUST-1010",
+    "balance": 34.99,
+    "currency": "GBP",
+    "accountStatus": "CURRENT",
+    "paymentMethod": "DIRECT_DEBIT",
+    "autopayStatus": "ENABLED"
+  }
+]

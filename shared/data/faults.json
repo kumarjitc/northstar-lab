@@ -1,0 +1,199 @@
+[
+  {
+    "faultId": "FLT-6001",
+    "customerId": "CUST-1001",
+    "serviceId": "SVC-3001",
+    "faultType": "INTERMITTENT",
+    "status": "MONITORING",
+    "openedAt": "2025-11-14T18:00:00Z",
+    "summary": "Customer reports intermittent red broadband light.",
+    "diagnostics": {
+      "lineTest": "PASS",
+      "opticalPower": "NORMAL",
+      "routerReachable": true,
+      "routerRestartCount24h": 1,
+      "measuredDownloadMbps": 142,
+      "contractMinimumMbps": 100,
+      "congestionDetected": false,
+      "accessState": "UP",
+      "relatedIncidentId": "INC-4102"
+    },
+    "notes": "Line healthy. Active DNS/resolver degradation incident may explain browsing issues."
+  },
+  {
+    "faultId": "FLT-6002",
+    "customerId": "CUST-1002",
+    "serviceId": "SVC-3003",
+    "faultType": "EQUIPMENT",
+    "status": "RESOLVED",
+    "openedAt": "2025-10-20T09:00:00Z",
+    "resolvedAt": "2025-10-27T16:00:00Z",
+    "summary": "Wi-Fi dropouts reported; resolved remotely with configuration change.",
+    "diagnostics": {
+      "lineTest": "PASS",
+      "routerReachable": true,
+      "routerRestartCount24h": 0,
+      "measuredDownloadMbps": 48,
+      "contractMinimumMbps": 35,
+      "congestionDetected": false,
+      "accessState": "UP"
+    },
+    "relatedOrderId": "ORD-2041",
+    "notes": "Fault resolved but router replacement order ORD-2041 remains IN_PROGRESS — operational mismatch requiring review."
+  },
+  {
+    "faultId": "FLT-6003",
+    "customerId": "CUST-1003",
+    "serviceId": "SVC-3005",
+    "faultType": "TOTAL_LOSS",
+    "status": "ENGINEER_BOOKED",
+    "openedAt": "2025-11-11T08:00:00Z",
+    "summary": "No broadband service.",
+    "diagnostics": {
+      "lineTest": "FAIL",
+      "opticalPower": "LOW",
+      "routerReachable": false,
+      "routerRestartCount24h": 0,
+      "measuredDownloadMbps": 0,
+      "contractMinimumMbps": 100,
+      "congestionDetected": false,
+      "accessState": "DOWN"
+    },
+    "relatedOrderId": "ORD-2044",
+    "notes": "Engineer appointment already booked via ORD-2044."
+  },
+  {
+    "faultId": "FLT-6004",
+    "customerId": "CUST-1004",
+    "serviceId": "SVC-3006",
+    "faultType": "PERFORMANCE",
+    "status": "OPEN",
+    "openedAt": "2025-11-13T10:00:00Z",
+    "summary": "Business broadband consistently below contractual minimum download speed.",
+    "diagnostics": {
+      "lineTest": "PASS",
+      "opticalPower": "NORMAL",
+      "routerReachable": true,
+      "routerRestartCount24h": 0,
+      "measuredDownloadMbps": 180,
+      "contractMinimumMbps": 400,
+      "congestionDetected": true,
+      "accessState": "DEGRADED",
+      "relatedIncidentId": "INC-4101"
+    },
+    "relatedOrderId": "ORD-2047",
+    "notes": "Evidence supports service-level review; does not authorise automatic fee-free cancellation."
+  },
+  {
+    "faultId": "FLT-6005",
+    "customerId": "CUST-1005",
+    "serviceId": "SVC-3008",
+    "faultType": "ACCESS_RESTRICTION",
+    "status": "CLOSED_NO_FAULT",
+    "openedAt": "2025-11-11T11:00:00Z",
+    "resolvedAt": "2025-11-11T12:00:00Z",
+    "summary": "Customer reported no internet; diagnostics show billing access restriction.",
+    "diagnostics": {
+      "lineTest": "PASS",
+      "opticalPower": "NORMAL",
+      "routerReachable": true,
+      "routerRestartCount24h": 0,
+      "measuredDownloadMbps": null,
+      "contractMinimumMbps": 35,
+      "congestionDetected": false,
+      "accessState": "BLOCKED"
+    },
+    "notes": "Physical network fault not indicated. Access blocked due to billing restriction."
+  },
+  {
+    "faultId": "FLT-6006",
+    "customerId": "CUST-1006",
+    "serviceId": "SVC-3009",
+    "faultType": "CONNECTIVITY",
+    "status": "RESOLVED",
+    "openedAt": "2025-10-01T09:00:00Z",
+    "resolvedAt": "2025-10-05T15:40:00Z",
+    "summary": "Intermittent dropouts resolved after engineer visit.",
+    "diagnostics": {
+      "lineTest": "PASS",
+      "routerReachable": true,
+      "measuredDownloadMbps": 480,
+      "contractMinimumMbps": 350,
+      "accessState": "UP"
+    },
+    "relatedOrderId": "ORD-2045"
+  },
+  {
+    "faultId": "FLT-6007",
+    "customerId": "CUST-1007",
+    "serviceId": "SVC-3010",
+    "faultType": "INTERMITTENT",
+    "status": "RESOLVED",
+    "openedAt": "2025-09-08T08:00:00Z",
+    "resolvedAt": "2025-09-12T16:00:00Z",
+    "summary": "Intermittent connectivity resolved; explicit fault credit applied.",
+    "diagnostics": {
+      "lineTest": "PASS",
+      "routerReachable": true,
+      "measuredDownloadMbps": 145,
+      "contractMinimumMbps": 100,
+      "accessState": "UP"
+    },
+    "relatedOrderId": "ORD-2048",
+    "compensationCreditGbp": 15
+  },
+  {
+    "faultId": "FLT-6008",
+    "customerId": "CUST-1008",
+    "serviceId": "SVC-3011",
+    "faultType": "PRE_ACTIVATION",
+    "status": "OPEN",
+    "openedAt": "2025-10-15T09:00:00Z",
+    "summary": "Customer reports service unavailable prior to activation.",
+    "diagnostics": {
+      "lineTest": "NOT_APPLICABLE",
+      "routerReachable": false,
+      "measuredDownloadMbps": null,
+      "contractMinimumMbps": 700,
+      "accessState": "NOT_ACTIVATED"
+    },
+    "relatedOrderId": "ORD-2042",
+    "notes": "Evaluate against provisioning/orders before diagnosing network fault."
+  },
+  {
+    "faultId": "FLT-6009",
+    "customerId": "CUST-1010",
+    "serviceId": "SVC-3014",
+    "faultType": "EQUIPMENT",
+    "status": "OPEN",
+    "openedAt": "2025-11-07T19:00:00Z",
+    "summary": "Router repeatedly restarting.",
+    "diagnostics": {
+      "lineTest": "PASS",
+      "opticalPower": "NORMAL",
+      "routerReachable": true,
+      "routerRestartCount24h": 14,
+      "measuredDownloadMbps": 120,
+      "contractMinimumMbps": 100,
+      "congestionDetected": false,
+      "accessState": "DEGRADED"
+    },
+    "relatedOrderId": "ORD-2046",
+    "notes": "Equipment instability indicated. Replacement ordered. Charge validity remains separate dispute."
+  },
+  {
+    "faultId": "FLT-6010",
+    "customerId": "CUST-1009",
+    "serviceId": "SVC-3013",
+    "faultType": "CONNECTIVITY",
+    "status": "CLOSED_NO_FAULT",
+    "openedAt": "2025-08-01T10:00:00Z",
+    "resolvedAt": "2025-08-02T10:00:00Z",
+    "summary": "Historic fault closed before cease.",
+    "diagnostics": {
+      "lineTest": "PASS",
+      "routerReachable": true,
+      "accessState": "UP"
+    }
+  }
+]
