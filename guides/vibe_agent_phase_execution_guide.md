@@ -12,15 +12,17 @@ Do not ask the Vibe Agent to implement the entire plan in one run. Complete, ver
 
 Provide these files at the start of the project:
 
-1. `northstar_implementation_plan.md`
-2. `northstar_fictional_decisioning_dataset_v3.zip`
-3. This guide: `vibe_agent_phase_execution_guide.md`
+1. `guides/northstar_implementation_plan.md`
+2. Runtime fixtures in `shared/data` and `shared/knowledge` (already in the repo; optional baseline zip if regenerating)
+3. This guide: `guides/vibe_agent_phase_execution_guide.md`
+4. Root setup guide: `README.md`
 
 Tell the agent:
 
-- `northstar_implementation_plan.md` is the authoritative implementation specification.
-- The ZIP is the immutable fictional data and knowledge baseline.
+- `guides/northstar_implementation_plan.md` is the authoritative implementation specification.
+- `shared/data` and `shared/knowledge` are the fictional data and knowledge baseline used at runtime.
 - This guide controls phase execution and stopping points.
+- `README.md` is the step-by-step setup and run guide for humans checking out the lab.
 - If this guide and the implementation plan appear to conflict, stop and report the conflict before changing code.
 
 ---

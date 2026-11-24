@@ -1,13 +1,33 @@
+# Dependencies & build outputs
 node_modules/
 dist/
 coverage/
-.env
-*.log
-.DS_Store
-phases/*/logs/*.jsonl
-phases/*/logs/*.trace.html
-!phases/*/logs/.gitkeep
 .turbo/
 *.tsbuildinfo
+
+# Local secrets (keep *.env.example tracked for setup)
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Runtime / test logs (any new filenames under phase logs/)
+phases/*/logs/*
+!phases/*/logs/.gitkeep
+
+# Generated dataset staging + archives (runtime uses shared/data + shared/knowledge)
 northstar_fictional_decisioning_dataset_v3/
 *.zip
+
+# OS / editor
+.DS_Store
+*.log
+
+# ---------------------------------------------------------------------------
+# Intentionally tracked for testing & learning (do not ignore):
+#   README.md, COMMANDS.md
+#   guides/** (implementation plan, vibe execution guide, data-generation guide)
+#   docs/** (architecture, decisions, observations, scenarios, phase notes,
+#           utterances, linkedin-carousel)
+#   phases/*/README.md, scripts/, shared/data/, shared/knowledge/
+# ---------------------------------------------------------------------------
