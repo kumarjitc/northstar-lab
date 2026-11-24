@@ -180,8 +180,11 @@ Default service agent port: `4202`.
 
 | File | Why |
 |---|---|
+| [README.md](README.md) | Step-by-step setup and run guide |
 | [COMMANDS.md](COMMANDS.md) | This cheat sheet |
-| [README.md](README.md) | Project overview |
+| [guides/northstar_implementation_plan.md](guides/northstar_implementation_plan.md) | Authoritative technical specification |
+| [guides/vibe_agent_phase_execution_guide.md](guides/vibe_agent_phase_execution_guide.md) | Phase execution prompts and stop gates |
+| [guides/data-generation-guide.md](guides/data-generation-guide.md) | Dataset generation rules |
 | [docs/architecture/logging.md](docs/architecture/logging.md) | Shared logging rules |
 | [phases/00-rest/README.md](phases/00-rest/README.md) | Phase 0 details |
 | [phases/01-agentic/README.md](phases/01-agentic/README.md) | Phase 1 details |
