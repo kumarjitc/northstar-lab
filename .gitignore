@@ -23,6 +23,9 @@ northstar_fictional_decisioning_dataset_v3/
 .DS_Store
 *.log
 
+# Work logs
+work_docs/*
+
 # ---------------------------------------------------------------------------
 # Intentionally tracked for testing & learning (do not ignore):
 #   README.md, COMMANDS.md
